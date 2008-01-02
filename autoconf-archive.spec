@@ -11,6 +11,7 @@ URL:            http://autoconf-archive.cryp.to/
 Source0:        http://autoconf-archive.cryp.to/autoconf-archive-%{snapshot}.tar.bz2
 Requires:       automake
 BuildArch:      noarch
+BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
 The Autoconf Macro Archive aims to provide a collection of reusable Autoconf 
