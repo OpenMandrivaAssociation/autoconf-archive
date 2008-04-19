@@ -1,4 +1,4 @@
-%define snapshot 2007-08-21
+%define snapshot 2008-04-17
 
 Name:           autoconf-archive
 Version:        %(/bin/echo %{snapshot} | %{__sed} 's/-/./g')
