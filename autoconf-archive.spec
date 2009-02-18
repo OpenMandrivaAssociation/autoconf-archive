@@ -1,4 +1,4 @@
-%define snapshot 2008-04-17
+%define snapshot 2008-11-07
 
 Name:           autoconf-archive
 Version:        %(/bin/echo %{snapshot} | %{__sed} 's/-/./g')
@@ -14,12 +14,12 @@ BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
-The Autoconf Macro Archive aims to provide a collection of reusable Autoconf 
-macros as free software. The archive currently features more than 500 macros 
-which perform portability tests ranging from compiler support for weird 
-language extensions to automatic generation of sophisticated Automake rules. 
-All these macros have been contributed by friendly supporters of the cause 
-from all over the Internet; this archive is merely a distribution of other 
+The Autoconf Macro Archive aims to provide a collection of reusable Autoconf
+macros as free software. The archive currently features more than 500 macros
+which perform portability tests ranging from compiler support for weird
+language extensions to automatic generation of sophisticated Automake rules.
+All these macros have been contributed by friendly supporters of the cause
+from all over the Internet; this archive is merely a distribution of other
 people's efforts.
 
 %prep
