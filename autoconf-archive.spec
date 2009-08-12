@@ -1,8 +1,8 @@
-%define snapshot 2008-11-07
+%define snapshot 2009-04-26
 
 Name:           autoconf-archive
 Version:        %(/bin/echo %{snapshot} | %{__sed} 's/-/./g')
-Release:        %mkrel 3
+Release:        %mkrel 1
 Epoch:          0
 Summary:        Autoconf Macro Archive
 License:        GPL
