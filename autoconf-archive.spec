@@ -2,7 +2,7 @@
 
 Name:           autoconf-archive
 Version:        %(/bin/echo %{snapshot} | %{__sed} 's/-/./g')
-Release:        %mkrel 1
+Release:        %mkrel 2
 Epoch:          0
 Summary:        Autoconf Macro Archive
 License:        GPL
