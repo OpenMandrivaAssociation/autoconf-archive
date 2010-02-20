@@ -42,3 +42,4 @@ people's efforts.
 %doc AUTHORS COPYING INSTALL README
 %{_datadir}/autoconf-archive
 %{_datadir}/aclocal/*
+%{_infodir}/*
