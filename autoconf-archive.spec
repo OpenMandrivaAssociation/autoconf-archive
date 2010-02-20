@@ -1,14 +1,14 @@
-%define snapshot 2009-04-26
+%define snapshot 2010.02.14
 
 Name:           autoconf-archive
-Version:        %(/bin/echo %{snapshot} | %{__sed} 's/-/./g')
-Release:        %mkrel 2
+Version:        %{snapshot}
+Release:        %mkrel 1
 Epoch:          0
 Summary:        Autoconf Macro Archive
 License:        GPL
 Group:          Development/Other
 URL:            http://autoconf-archive.cryp.to/
-Source0:        http://autoconf-archive.cryp.to/autoconf-archive-%{snapshot}.tar.bz2
+Source0:        http://autoconf-archive.cryp.to/autoconf-archive-%{snapshot}.tar.xz
 Requires:       automake
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
