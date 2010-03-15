@@ -2,7 +2,7 @@
 
 Name:           autoconf-archive
 Version:        %{snapshot}
-Release:        %mkrel 1
+Release:        %mkrel 2
 Epoch:          0
 Summary:        Autoconf Macro Archive
 License:        GPL
