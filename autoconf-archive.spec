@@ -1,8 +1,8 @@
-%define snapshot 2010.02.14
+%define snapshot 2010.07.06
 
 Name:           autoconf-archive
 Version:        %{snapshot}
-Release:        %mkrel 2
+Release:        %mkrel 1
 Epoch:          0
 Summary:        Autoconf Macro Archive
 License:        GPL
