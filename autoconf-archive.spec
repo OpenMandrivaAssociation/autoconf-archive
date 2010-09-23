@@ -1,14 +1,12 @@
-%define snapshot 2010.07.06
-
 Name:           autoconf-archive
-Version:        %{snapshot}
+Version:        2010.08.19
 Release:        %mkrel 1
 Epoch:          0
 Summary:        Autoconf Macro Archive
 License:        GPL
 Group:          Development/Other
 URL:            http://autoconf-archive.cryp.to/
-Source0:        http://autoconf-archive.cryp.to/autoconf-archive-%{snapshot}.tar.xz
+Source0:        http://autoconf-archive.cryp.to/autoconf-archive-%{version}.tar.xz
 Requires:       automake
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
@@ -23,7 +21,7 @@ from all over the Internet; this archive is merely a distribution of other
 people's efforts.
 
 %prep
-%setup -q -n autoconf-archive-%{snapshot}
+%setup -q -n autoconf-archive-%{version}
 
 %build
 %{configure2_5x}
