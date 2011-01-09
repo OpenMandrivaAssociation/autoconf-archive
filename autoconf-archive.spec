@@ -1,12 +1,12 @@
 Name:           autoconf-archive
-Version:        2010.08.19
-Release:        %mkrel 2
+Version:        2011.01.02
+Release:        %mkrel 1
 Epoch:          0
 Summary:        Autoconf Macro Archive
 License:        GPL
 Group:          Development/Other
 URL:            http://autoconf-archive.cryp.to/
-Source0:        http://autoconf-archive.cryp.to/autoconf-archive-%{version}.tar.xz
+Source0:        http://ftpmirror.gnu.org/autoconf-archive/autoconf-archive-%{version}.tar.xz
 Requires:       automake
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
