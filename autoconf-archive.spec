@@ -1,6 +1,6 @@
 Name:           autoconf-archive
 Version:        2011.01.02
-Release:        %mkrel 1
+Release:        %mkrel 2
 Epoch:          0
 Summary:        Autoconf Macro Archive
 License:        GPL
