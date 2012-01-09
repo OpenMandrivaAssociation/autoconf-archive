@@ -1,5 +1,5 @@
 Name:			autoconf-archive
-Version:		2011.09.17
+Version:		2011.12.21
 Release:		%mkrel 1
 Summary:		The Autoconf Macro Archive
 Group:			Development/Other
