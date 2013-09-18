@@ -1,11 +1,11 @@
 Name:		autoconf-archive
-Version:	2012.04.07
-Release:	2
+Version:	2013.06.09
+Release:	1
 Summary:	The Autoconf Macro Archive
 Group:		Development/Other
 License:	GPLv3+ with exceptions
 URL:		http://www.gnu.org/software/autoconf-archive/
-Source0:	ftp://ftp.gnu.org/gnu/autoconf-archive/%{name}-%{version}.tar.xz
+Source0:	ftp://ftp.gnu.org:21/gnu/autoconf-archive/%{name}-%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texinfo
 Requires:	autoconf
@@ -51,4 +51,5 @@ rm -rf %{buildroot}%{_datadir}/%{name}
 * Tue Oct 18 2011 wally <wally> 2011.09.17-1.mga2
 + Revision: 156280
 - imported package autoconf-archive
+
 

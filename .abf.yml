@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   autoconf-archive-2012.04.07.tar.xz: 95ce64090bc2a31433a798fb14041e8901fc70af
+sources:
+  autoconf-archive-2013.06.09.tar.xz: ca2be8dc35d5ac5c7377daaac5e71f012fa5f9e2
