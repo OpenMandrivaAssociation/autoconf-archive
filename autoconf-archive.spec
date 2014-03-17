@@ -1,6 +1,6 @@
 Name:		autoconf-archive
-Version:	2013.06.09
-Release:	5
+Version:	2014.02.28
+Release:	1
 Summary:	The Autoconf Macro Archive
 Group:		Development/Other
 License:	GPLv3+ with exceptions
@@ -51,5 +51,6 @@ rm -rf %{buildroot}%{_datadir}/%{name}
 * Tue Oct 18 2011 wally <wally> 2011.09.17-1.mga2
 + Revision: 156280
 - imported package autoconf-archive
+
 
 
