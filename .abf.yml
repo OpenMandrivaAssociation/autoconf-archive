@@ -1,5 +1,6 @@
 removed_sources:
   autoconf-archive-2012.04.07.tar.xz: 95ce64090bc2a31433a798fb14041e8901fc70af
   autoconf-archive-2013.06.09.tar.xz: ca2be8dc35d5ac5c7377daaac5e71f012fa5f9e2
-sources:
   autoconf-archive-2014.02.28.tar.xz: a565c0143d79e593b297036ee50b055bfc156171
+sources:
+  autoconf-archive-2014.10.15.tar.xz: 7efcefd29a67da2a7243ea2b30e353027d70b460

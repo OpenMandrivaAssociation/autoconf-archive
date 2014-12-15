@@ -1,6 +1,6 @@
 Name:		autoconf-archive
-Version:	2014.02.28
-Release:	4
+Version:	2014.10.15
+Release:	1
 Summary:	The Autoconf Macro Archive
 Group:		Development/Other
 License:	GPLv3+ with exceptions
@@ -36,21 +36,3 @@ rm -rf %{buildroot}%{_datadir}/%{name}
 %doc AUTHORS COPYING* ChangeLog NEWS README TODO
 %{_datadir}/aclocal/*.m4
 %{_infodir}/autoconf-archive.info*
-
-
-%changelog
-
-* Tue May 29 2012 wally <wally> 2012.04.07-1.mga3
-+ Revision: 249276
-- new version 2012.04.07
-
-* Mon Dec 26 2011 wally <wally> 2011.12.21-1.mga2
-+ Revision: 187856
-- new version 2011.12.21
-
-* Tue Oct 18 2011 wally <wally> 2011.09.17-1.mga2
-+ Revision: 156280
-- imported package autoconf-archive
-
-
-
