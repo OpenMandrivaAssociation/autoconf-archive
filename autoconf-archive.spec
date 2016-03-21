@@ -1,5 +1,5 @@
 Name:		autoconf-archive
-Version:	2015.09.25
+Version:	2016.03.20
 Release:	1
 Summary:	The Autoconf Macro Archive
 Group:		Development/Other
