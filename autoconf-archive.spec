@@ -1,6 +1,6 @@
 Name:		autoconf-archive
 Version:	2018.03.13
-Release:	1
+Release:	2
 Summary:	The Autoconf Macro Archive
 Group:		Development/Other
 License:	GPLv3+ with exceptions
