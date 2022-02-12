@@ -1,5 +1,5 @@
 Name:		autoconf-archive
-Version:	2021.02.19
+Version:	2022.02.11
 Release:	1
 Summary:	The Autoconf Macro Archive
 Group:		Development/Other
@@ -34,4 +34,4 @@ rm -rf %{buildroot}%{_datadir}/%{name}
 %files
 %doc AUTHORS COPYING* ChangeLog NEWS README TODO
 %{_datadir}/aclocal/*.m4
-%{_infodir}/autoconf-archive.info*
+%doc %{_infodir}/autoconf-archive.info*
