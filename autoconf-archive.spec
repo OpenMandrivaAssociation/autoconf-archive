@@ -1,5 +1,5 @@
 Name:		autoconf-archive
-Version:	2022.02.11
+Version:	2022.09.03
 Release:	1
 Summary:	The Autoconf Macro Archive
 Group:		Development/Other
