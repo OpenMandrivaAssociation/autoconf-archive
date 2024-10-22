@@ -1,6 +1,6 @@
 Name:		autoconf-archive
-Version:	2023.02.20
-Release:	2
+Version:	2024.10.16
+Release:	1
 Summary:	The Autoconf Macro Archive
 Group:		Development/Other
 License:	GPLv3+ with exceptions
