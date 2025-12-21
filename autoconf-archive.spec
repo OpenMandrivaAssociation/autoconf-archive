@@ -7,6 +7,11 @@ License:	GPLv3+ with exceptions
 URL:		https://www.gnu.org/software/autoconf-archive/
 Source0:	ftp://ftp.gnu.org:21/gnu/autoconf-archive/%{name}-%{version}.tar.xz
 BuildArch:	noarch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	texinfo
 Requires:	autoconf
 
